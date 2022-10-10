@@ -2,7 +2,7 @@ package edu.pitt.lab_3;
 
 import javax.swing.JOptionPane;
 
-public class Unit_Converter {
+public class UnitConverter {
 
 	public static void main(String[] args) 
 	{
