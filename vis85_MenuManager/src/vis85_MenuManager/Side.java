@@ -2,26 +2,26 @@ package vis85_MenuManager;
 
 public class Side 
 {
-	
+
 	/**
 	 * Class MenuManager
 	 * author: Vinay Sriharish
 	 * created: 10/08/2022
 	 */
-	
+
 	// Declaring Side name description and calories
 	private String name;
 	private String description;
 	private int calories;
-	
+
 	public Side (String name, String description, int calories)
 	{
 		this.name = name;
 		this.description = description;
 		this.calories = calories;
-		
+
 	}
-	
+
 	//Getters and Setters for name, description, calories
 
 	public String getName() {
@@ -47,7 +47,7 @@ public class Side
 	public void setCalories(int calories) {
 		this.calories = calories;
 	}
-	
-	
+
+
 
 }
