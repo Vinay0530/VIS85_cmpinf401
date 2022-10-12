@@ -1,12 +1,13 @@
 package vis85_MenuManager;
+/**
+ * Class Menu
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class Menu
 {
-	/**
-	 * Class Menu
-	 * author: Vinay Sriharish
-	 * created: 10/08/2022
-	 */
+
 
 
 	//Declaring namme entree dessert salad side

@@ -1,14 +1,15 @@
 package vis85_MenuManager;
+/**
+ * Class MenuTest
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class MenuTest {
 
 	public static void main(String[] args) 
 	{
-		/**
-		 * Class MenuTest
-		 * author: Vinay Sriharish
-		 * created: 10/08/2022
-		 */
+
 
 		//Creating 2 entrees 2 sides 1 salad 1 dessert 
 		Entree entree = new Entree("Bacon Cheese Burger ", ",Seasoned beef patty with cheese and two strips of baon with chipotle sauce. "

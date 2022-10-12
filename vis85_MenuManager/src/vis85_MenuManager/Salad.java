@@ -1,12 +1,13 @@
 package vis85_MenuManager;
+/**
+ * Class Salad
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class Salad 
 {
-	/**
-	 * Class Salad
-	 * author: Vinay Sriharish
-	 * created: 10/08/2022
-	 */
+
 
 	// Declaring Salad name description and calories
 	private String name;

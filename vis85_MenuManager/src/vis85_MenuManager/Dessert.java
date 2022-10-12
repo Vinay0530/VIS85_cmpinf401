@@ -1,13 +1,14 @@
 package vis85_MenuManager;
+/**
+ * Class Dessert
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class Dessert
 {
 
-	/**
-	 * Class Dessert
-	 * author: Vinay Sriharish
-	 * created: 10/08/2022
-	 */
+
 
 	// Declaring dessert name description and calories
 

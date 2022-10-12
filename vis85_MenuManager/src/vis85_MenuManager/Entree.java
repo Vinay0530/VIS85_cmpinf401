@@ -1,12 +1,13 @@
 package vis85_MenuManager;
+/**
+ * Class Entree
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class Entree
 {
-	/**
-	 * Class Entree
-	 * author: Vinay Sriharish
-	 * created: 10/08/2022
-	 */
+
 
 
 	// Declaring Entree name description and calories

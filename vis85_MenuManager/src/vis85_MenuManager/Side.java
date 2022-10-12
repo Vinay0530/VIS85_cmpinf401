@@ -1,13 +1,14 @@
 package vis85_MenuManager;
+/**
+ * Class MenuManager
+ * author : Vinay Sriharish
+ * created: 10/08/2022
+ */
 
 public class Side 
 {
 
-	/**
-	 * Class MenuManager
-	 * author: Vinay Sriharish
-	 * created: 10/08/2022
-	 */
+
 
 	// Declaring Side name description and calories
 	private String name;
