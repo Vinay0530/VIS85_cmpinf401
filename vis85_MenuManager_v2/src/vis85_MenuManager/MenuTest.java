@@ -38,7 +38,10 @@ public class MenuTest {
 		//Printing second menu
 		System.out.println(menu2.description());
 		
-		System.out.println("# Entree count: " + FileManager.readEntrees("data/entrees").size());
+		System.out.println("# Entree count: " + FileManager.readEntrees("data/entrees.txt").size());
+		System.out.println("# Entree count: " + FileManager.readEntrees("data/sides.txt").size());
+		System.out.println("# Entree count: " + FileManager.readEntrees("data/salads.txt").size());
+		System.out.println("# Entree count: " + FileManager.readEntrees("data/desserts.txt").size());
 
 
 

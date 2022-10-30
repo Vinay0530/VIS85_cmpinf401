@@ -40,6 +40,99 @@ public class FileManager
 		}
 		return entries;
 	}
+	public static ArrayList<Side> readSides(String fileName)
+	{
+		ArrayList<Side> sides = new ArrayList<Side>();
+		FileReader fr;
+		try {
+			fr = new FileReader(fileName);
+		
+			BufferedReader br = new BufferedReader(fr); 
+			String line = null;
+			
+			while ((line = br.readLine()) != null) {
+		     System.out.println(line);
+		     String[] arrSide = line.split("@@");
+		     Side side1 = new Side(arrSide[0],arrSide[1] , Integer.parseInt(arrSide[2]));
+		     sides.add(side1);
+		     
+			}   
+	
+			 br.close();
+		     fr.close();
+		} 
+        catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println("Entree file is not found. Please create data before you run program.");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return sides;
+	}
+	public static ArrayList<Salad> readSalads(String fileName)
+	{
+		ArrayList<Salad> salads = new ArrayList<Salad>();
+		FileReader fr;
+		try {
+			fr = new FileReader(fileName);
+		
+			BufferedReader br = new BufferedReader(fr); 
+			String line = null;
+			
+			while ((line = br.readLine()) != null) {
+		     System.out.println(line);
+		     String[] arrSalad = line.split("@@");
+		     Salad salad1 = new Salad(arrSalad[0],arrSalad[1] , Integer.parseInt(arrSalad[2]));
+		     salads.add(salad1);
+		     
+			}   
+	
+			 br.close();
+		     fr.close();
+		} 
+        catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println("Entree file is not found. Please create data before you run program.");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return salads;
+	}
+	public static ArrayList<Dessert> readDesserts(String fileName)
+	{
+		ArrayList<Dessert> desserts = new ArrayList<Dessert>();
+		FileReader fr;
+		try {
+			fr = new FileReader(fileName);
+		
+			BufferedReader br = new BufferedReader(fr); 
+			String line = null;
+			
+			while ((line = br.readLine()) != null) {
+		     System.out.println(line);
+		     String[] arrDessert = line.split("@@");
+		     Dessert dessert1 = new Dessert(arrDessert[0],arrDessert[1] , Integer.parseInt(arrDessert[2]));
+		     desserts.add(dessert1);
+		     
+			}   
+	
+			 br.close();
+		     fr.close();
+		} 
+        catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			//e.printStackTrace();
+			System.out.println("Entree file is not found. Please create data before you run program.");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return desserts;
+	}
 	
 
 }
