@@ -8,6 +8,11 @@ import java.io.FileNotFoundException;
 
 
 public class FileManager
+/**
+ * Class FileManager
+	 * @author : Vinay Sriharish
+ * @created: 10/30/2022
+ */
 {
 	public static ArrayList<Entree> readEntrees(String fileName)
 	{
@@ -20,7 +25,7 @@ public class FileManager
 			String line = null;
 			
 			while ((line = br.readLine()) != null) {
-		     System.out.println(line);
+		 
 		     String[] arrEntree = line.split("@@");
 		     Entree entree = new Entree(arrEntree[0],arrEntree[1] , Integer.parseInt(arrEntree[2]));
 		     entries.add(entree);
@@ -51,7 +56,7 @@ public class FileManager
 			String line = null;
 			
 			while ((line = br.readLine()) != null) {
-		     System.out.println(line);
+		   
 		     String[] arrSide = line.split("@@");
 		     Side side1 = new Side(arrSide[0],arrSide[1] , Integer.parseInt(arrSide[2]));
 		     sides.add(side1);
@@ -82,7 +87,7 @@ public class FileManager
 			String line = null;
 			
 			while ((line = br.readLine()) != null) {
-		     System.out.println(line);
+		
 		     String[] arrSalad = line.split("@@");
 		     Salad salad1 = new Salad(arrSalad[0],arrSalad[1] , Integer.parseInt(arrSalad[2]));
 		     salads.add(salad1);
@@ -113,7 +118,7 @@ public class FileManager
 			String line = null;
 			
 			while ((line = br.readLine()) != null) {
-		     System.out.println(line);
+		   
 		     String[] arrDessert = line.split("@@");
 		     Dessert dessert1 = new Dessert(arrDessert[0],arrDessert[1] , Integer.parseInt(arrDessert[2]));
 		     desserts.add(dessert1);

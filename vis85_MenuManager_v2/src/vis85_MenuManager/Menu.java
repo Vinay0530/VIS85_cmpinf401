@@ -129,22 +129,22 @@ public class Menu
 
 		String description="Menu: " + this.name + "\n" +  "Total Calories: " + totalCalories() + "\n" ;
 		if(entree!=null) 
-			description = description + "Entree: "  + entree.getName() + entree.getDescription() + "\n";
+			description = description + "Entree: "  + entree.getName() + " "+ entree.getDescription() + "\n";
 		else 
 			description += " Entree: N/A \n";
 
 		if(side!=null) 
-			description = description + "Side: "  + side.getName() + side.getDescription() + "\n";
+			description = description + "Side: "  + side.getName() +" "+ side.getDescription() + "\n";
 		else 
 			description += "Side: N/A \n";
 
 		if(salad!=null) 
-			description = description + "Salad: "  + salad.getName() + salad.getDescription() + "\n";
+			description = description + "Salad: "  + salad.getName() + " "+ salad.getDescription() + "\n";
 		else 
 			description += "Salad: N/A \n";
 
 		if(dessert!=null) 
-			description = description + "Dessert: "  + dessert.getName() + dessert.getDescription() + "\n";
+			description = description + "Dessert: "  + dessert.getName() + " "+ dessert.getDescription() + "\n";
 		else 
 			description += "Dessert: N/A \n";
 
