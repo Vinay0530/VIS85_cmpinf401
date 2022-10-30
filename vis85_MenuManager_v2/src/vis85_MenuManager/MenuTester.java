@@ -1,6 +1,12 @@
 package vis85_MenuManager;
 
-public class MenuTester {
+public class MenuTester 
+/**
+ * Class MenuTester
+	 * @author : Vinay Sriharish
+ * @created: 10/30/2022
+ */
+{
 
 	public static void main(String[] args) 
 	{

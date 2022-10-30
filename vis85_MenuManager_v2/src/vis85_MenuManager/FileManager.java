@@ -14,6 +14,12 @@ public class FileManager
  * @created: 10/30/2022
  */
 {
+	/**
+	* Method readEntrees
+	* @param fileName a String
+	* @return the arraylist
+	*/
+
 	public static ArrayList<Entree> readEntrees(String fileName)
 	{
 		ArrayList<Entree> entries = new ArrayList<Entree>();
@@ -45,6 +51,11 @@ public class FileManager
 		}
 		return entries;
 	}
+	/**
+	* Method readSides
+	* @param fileName a String
+	* @return the arraylist
+	*/
 	public static ArrayList<Side> readSides(String fileName)
 	{
 		ArrayList<Side> sides = new ArrayList<Side>();
@@ -76,6 +87,11 @@ public class FileManager
 		}
 		return sides;
 	}
+	/**
+	* Method readSalads
+	* @param fileName a String
+	* @return the arraylist
+	*/
 	public static ArrayList<Salad> readSalads(String fileName)
 	{
 		ArrayList<Salad> salads = new ArrayList<Salad>();
@@ -107,6 +123,11 @@ public class FileManager
 		}
 		return salads;
 	}
+	/**
+	* Method readDesserts
+	* @param fileName a String
+	* @return the arraylist
+	*/
 	public static ArrayList<Dessert> readDesserts(String fileName)
 	{
 		ArrayList<Dessert> desserts = new ArrayList<Dessert>();
