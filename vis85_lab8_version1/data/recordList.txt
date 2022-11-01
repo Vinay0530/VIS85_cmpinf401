@@ -1,3 +1,3 @@
-Vinayu, 9.0
-Vinayy, 11.0
-Vinay, 12.0
+maxy, 9.0
+max, 12.0
+vinay, 13.0
