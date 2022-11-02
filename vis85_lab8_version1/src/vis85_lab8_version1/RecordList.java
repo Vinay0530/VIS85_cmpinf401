@@ -84,7 +84,7 @@ public class RecordList
 		data1.next=currentNode.next;
 		currentNode.next=data1;
 		
-		//what do i have to return
+		
 		return index;
 		
 
