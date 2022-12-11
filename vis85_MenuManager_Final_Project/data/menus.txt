@@ -1,0 +1,7 @@
+Menu name inowniwq
+Entree: Sirloin Steak Calories: 820 Price: 22.5
+Side: Rice Calories: 160 Price: 3.5
+Salad: Mixed Vegetables Calories: 90 Price: 7.0
+Dessert: Ice Cream Calories: 250 Price: 3.2
+Total Cals: 1320
+Total Price 36.2

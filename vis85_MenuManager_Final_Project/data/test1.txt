@@ -1,0 +1,7 @@
+Menu name Random Menu
+Entree: Griller Steak Calories: 740 Price: 15.0
+Side: Quinoa Calories: 140 Price: 4.7
+Salad: Mixed Vegetables Calories: 90 Price: 7.0
+Dessert: Chocolate Cake Calories: 175 Price: 7.0
+Total Cals: 1145
+Total Price 33.7
